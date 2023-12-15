@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "moduleResolution": "node",
+    "strict": true,
+    "lib": [
+        "ESNext.Array",
+        "DOM"
+    ],
+    "esModuleInterop": true
+  },
+  "files" : [
+    "index.ts",
+    "app.ts",
+    "discovery_udp.ts",
+    "discovery_mdns.ts",
+    "discovery_upnp.ts",
+    "execution_udp.ts",
+    "execution_tcp.ts",
+    "execution_http.ts",
+    "test.ts",
+    "types.ts",
+    "../device/types.ts"
+  ]
+}

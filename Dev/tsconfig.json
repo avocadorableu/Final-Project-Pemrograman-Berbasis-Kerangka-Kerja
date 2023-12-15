@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "types": [
+      "node"
+    ],
+    "esModuleInterop": true
+  },
+  "files" : [
+    "discovery_mdns.ts",
+    "discovery_udp.ts",
+    "discovery_upnp.ts",
+    "execution_http.ts",
+    "execution_tcp.ts",
+    "execution_udp.ts",
+    "opc_device.ts",
+    "server.ts",
+    "types.ts"
+  ]
+}
